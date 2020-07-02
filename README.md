@@ -1,4 +1,4 @@
-#SVG_ANIMATIO_WITH_CSS
+#SVG_ANIMATION_WITH_CSS
 1. create an image with adobe illustrator/undraw 
 2. open file in #FIGMA
 3. make group of subimages you want to animate
