@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+/* animations via keyframes */
+
+#rightwheel,#leftwheel{
+    animation: wheel 2s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+@keyframes wheel{
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+}
+
+#manonbike,#hat{
+    animation: bike 3s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: center;
+
+}
+
+@keyframes bike{
+
+    from{
+        transform:rotateX(0deg);
+    }
+    to{
+        transform: rotateX(25deg);
+    }
+
+}
